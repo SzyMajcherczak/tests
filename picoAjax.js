@@ -1979,31 +1979,7 @@ if (s==60){
 	   if (s>0){
 	    if(t<10) el.innerHTML = '0'+(t-1)+":"+S;
 	   }
-	   
-       if (s==0) {
-	     if(t<10) el.innerHTML = '0'+t+":"+'00';
-	   }          
-  }
- 
-}
 
-// pierwiastki trójmianu kw.
-function picoX2(a,b,c,f) {
-
-if (a==0) return 'Error, a=0';
-
-var d=b*b-4*a*c;
-if (f=='delta') return d;
-
-if (d>=0) {
-
-var x1=(-b-Math.sqrt(d))/(2*a);
-var x2=(-b+Math.sqrt(d))/(2*a)
-
-if (f=='x1')return Math.min(x1,x2);
-if (f=='x2')return Math.max(x1,x2);
-
-return Math.min(x1,x2) +' ; '+Math.max(x1,x2) ;
 
   } else return 'Nie istnieją';
 
