@@ -2008,6 +2008,14 @@ function picoWatermark(div, w, h, img1, img2){
 
 // --------- HTML DOM --------
 
+dsfa
+dsfaf
+dsfadfs
+
+dfs
+dfs
+dfsdfs
+
 function picoId(id) {
 
 if (id=='' || id==undefined) {
@@ -2015,6 +2023,7 @@ if (id=='' || id==undefined) {
  return false;
  }
  
+<<<<<<< HEAD
  else {
   if (id =='body'){
  return (document.body)}
@@ -2033,6 +2042,9 @@ if (id=='' || id==undefined) {
 }
 function picoTxtContent(el) {return el.textContent}
 function picoTXT(id,txt) {picoId(id).innerHTML=txt}
+=======
+
+>>>>>>> refs/heads/Testy
  
 function picoQS(s)       {return document.querySelector(s)}
 function picoQSA(s)      {return document.querySelectorAll(s)}
