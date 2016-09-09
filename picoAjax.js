@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 /* 
 picoAjax: Biblioteka Ajax/JavaScript
 ------------------------------------------
@@ -2047,3 +2048,13 @@ function picoEvent(e,z,a){eval('e.addEventListener(z,a)')}
 function picoReEvent(e,z,a){eval('e.removeEventListener(z,a)')}
 function picoPrevent(e)  {eval('e.preventDefault()')}
 //-------------------------------------------------------------
+=======
+zIndexx
+xc
+vLinkcolorb
+namem
+,
+aLinkcolors
+dataf
+getAttention
+>>>>>>> Stashed changes
