@@ -2045,22 +2045,7 @@ if (id=='' || id==undefined) {
  return false;
  }
  
- else {
-  if (id =='body'){
- return (document.body)}
- else if (id =='html'){
- return (document.documentElement)}
- else {
- var el=document.getElementById(id);
- if (el) {
- return el
-  } else {
-  alert('picoAjax\nError: id='+id +' nie istnieje!');
-  return false;
-   }
-  }
- }
-}
+
  
 function picoQS(s)       {return document.querySelector(s)}
 function picoQSA(s)      {return document.querySelectorAll(s)}
