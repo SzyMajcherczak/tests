@@ -2008,7 +2008,8 @@ return Math.min(x1,x2) +' ; '+Math.max(x1,x2) ;
   } else return 'Nie istnieją';
 
 }
-
+function picoTxtContent(el) {return el.textContent}
+function picoTXT(id,txt) {picoId(id).innerHTML=txt}
 // skocz do id
 function picoGoId(id){document.getElementById(id).scrollIntoView({behavior:'smooth'})}
 
@@ -2053,6 +2054,8 @@ if (id=='' || id==undefined) {
   }
  }
 }
+function picoTxtContent(el) {return el.textContent}
+function picoTXT(id,txt) {picoId(id).innerHTML=txt}
  
 function picoQS(s)       {return document.querySelector(s)}
 function picoQSA(s)      {return document.querySelectorAll(s)}
@@ -2111,6 +2114,8 @@ if ( g =='before' ) eval('e.insertBefore(newN,refN)');
 if ( g =='after') eval('e.parentNode.insertBefore(newN, e.nextSibling)');
 }
 
+function picoTxtContent(el) {return el.textContent}
+function picoTXT(id,txt) {picoId(id).innerHTML=txt}
 function picoTxtContent(el) {return el.textContent}
 function picoTXT(id,txt) {picoId(id).innerHTML=txt}
 // --------- \HTML DOM --------
